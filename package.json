@@ -1,0 +1,19 @@
+{
+  "name": "seti-bot",
+  "version": "0.0.1",
+  "description": "A chatbot developed for my talk Messenger Chatbots with Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "1.x",
+    "botpress-analytics": "^2.2.4",
+    "botpress-messenger": "^2.2.9",
+    "botpress-web": "1.x",
+    "sqlite3": "^3.1.13"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Breno Henrique",
+  "license": "Botpress Proprietary License"
+}
