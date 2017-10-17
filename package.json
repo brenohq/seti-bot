@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "botpress start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "lt --port 3000"
   },
   "author": "Breno Henrique",
   "license": "Botpress Proprietary License"
