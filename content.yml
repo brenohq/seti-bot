@@ -1,47 +1,25 @@
 # Welcome || GET_STARTED
 # Initial flow
-welcome:
-  - text:
-      - 'Olá!'
-      - 'Olá {{ user.first_name }}!'
-      - 'Seu nome é {{ user.first_name }} certo!?'
-    typing: 1s
-  - text: 'Eu tenho 3 opções'
-    typing: true
-  - text: '1 - Link dos slides'
-    typing: true
-  - text: '2 - Código no GitHub'
-    typing: true
-  - text: '3 - www.brenohq.com'
-    typing: true
+send-links:
+  - on: facebook
+    template_type: button
+    text: 'Eu tenho 3 opções:'
+    buttons:
+      - type: web_url
+        url: https://youtube.com/?q=cats
+        title: Slides
+      - type: web_url
+        url: https://youtube.com/?q=cats
+        title: GitHub
+      - type: web_url
+        url: http://www.brenohq.com
+        title: www.brenohq.com
   - wait: 5s
   - text: 'Ou você pode me dar tchau...'
-    typing: true
-
-# option '1'
-send-link:
-  - text: '{{ link }}'
-    typing: true
-
-# option '2'
-flow-two:
-  - text: 2!
-    typing: true
-
-# option '3'
-flow-three:
-  - text: 3!
-    typing: true
-
-# option '4'
-flow-four:
-  - text: 4!
     typing: true
 
 # goodbye
 # final flow
 goodbye:
-  - text: Você está indo embora!
-    typing: true
-  - text: Tomara que não tenha achado a {{ reason }}!
+  - text: 'Tchau! Você é o meu {{ number }}º melhor amigo até agora!'
     typing: true

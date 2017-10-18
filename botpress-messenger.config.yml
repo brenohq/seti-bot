@@ -4,13 +4,13 @@
 
 # hostname: "" # MESSENGER_HOST
 
-# applicationID: "" # MESSENGER_APP_ID
-# accessToken: "" # MESSENGER_ACCESS_TOKEN
-# appSecret: "" # MESSENGER_APP_SECRET
+applicationID: "127516434534497" # MESSENGER_APP_ID
+accessToken: "EAABzZBbvIkGEBACD33QtnEscJZAEmUgKGqIrZCJZBOGsGM38xSEis6n9rcIVOwZAm8Tihifg2P7GRpPCsjW1TddPrFRLhbr8qVGSdlba2VnCTsZC1tZA5f6K4XWBtlfVzPpKCZAc844rIHtyiq38AQ95eDZBTfJ8yuB1dHixDg1m9WSto1H5ZAZChgz" # MESSENGER_ACCESS_TOKEN
+appSecret: "26169df43e6a79638974fad23eb3288d" # MESSENGER_APP_SECRET
 
 # verifyToken: "" # MESSENGER_VERIFY_TOKEN
 
-# displayGetStarted: true
+displayGetStarted: true
 # greetingMessage: ""
 
 # https://developers.facebook.com/docs/messenger-platform/messenger-profile/persistent-menu
