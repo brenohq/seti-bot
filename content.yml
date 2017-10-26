@@ -6,14 +6,14 @@ send-links:
     text: 'Eu tenho 3 opções:'
     buttons:
       - type: web_url
-        url: https://youtube.com/?q=cats
+        url: http://www.brenohq.com/slides
         title: Slides
       - type: web_url
-        url: https://youtube.com/?q=cats
+        url: https://github.com/brenohq/seti-bot
         title: GitHub
       - type: web_url
         url: http://www.brenohq.com
-        title: www.brenohq.com
+        title: brenohq.com
   - wait: 5s
   - text: 'Ou você pode me dar tchau...'
     typing: true
